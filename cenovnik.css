@@ -1,0 +1,21 @@
+
+#tabela td{
+    border: 3px solid white;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+#tabela{
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    margin: 150px;
+}
+.boldirano{
+    font-weight: bolder;
+}
+.boja{
+    font-weight: bolder;
+    background:  linear-gradient(rgb(128, 1, 1),#2d2d2d)no-repeat;
+}

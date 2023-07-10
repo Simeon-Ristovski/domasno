@@ -1,0 +1,56 @@
+
+/*main*/
+#main{
+    display: grid;
+    grid-template-areas: "1 2";
+    margin: auto;
+}
+#sliki{
+    display: grid;
+    grid-template-areas: "1 2";
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.sliki1{
+    margin: 20px;
+    border: #a8a8a8 10px solid;
+}
+
+.sliki1 {
+    transition:transform 0.20s ease;
+}
+
+.sliki1:hover {
+    -webkit-transform:scale(1.55); /* or some other value */
+    transform:scale(1.55);
+}
+#proizvodi{
+    list-style: none;
+    padding-left: 100px;
+    padding-top: 100px;
+    /*position: fixed;*/
+}
+#proizvodi li a{
+    text-decoration: none;
+    color: #a8a8a8;
+    font-weight: bold;
+    font-size: larger;
+}
+#proizvodi #naStrana{
+    background:  linear-gradient(rgb(128, 1, 1),#2d2d2d)no-repeat;
+}
+#proizvodi li a:hover{
+    color: #1a1a1a;
+}
+#proizvodi li {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+    width: 300px;
+}
+#proizvodi li:first-of-type{
+    border-top: 2px solid white;
+}

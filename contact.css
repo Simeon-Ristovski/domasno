@@ -1,0 +1,54 @@
+/*main*/
+
+#main{
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+#mrezi{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+#mrezi li{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid gray;
+}
+
+#mrezi li a{
+    text-decoration: none;
+    color: #a8a8a8;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#mrezi li:nth-of-type(1) a:hover{
+    text-decoration: #800101;
+    color: blue;
+}
+#mrezi li:nth-of-type(2) a:hover{
+    text-decoration: #800101;
+    color: #e11261;
+}
+#mrezi li:nth-of-type(3) a:hover{
+    text-decoration: #800101;
+    color: #00c000;
+}
+
+#mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+#main #mapdiv{
+    border: 15px solid #a8a8a8;
+}
+#mrezi li:last-of-type{
+    color: #a8a8a8;
+    font-size: larger;
+    font-weight: bold;
+}

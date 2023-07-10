@@ -1,0 +1,86 @@
+body{
+    background-color: #2d2d2d;
+}
+#page{
+    /*za 100% zoom na browserot komentar na ovie dve*/
+    width: 1650px;
+    margin: auto;
+}
+#se{
+    /*za 100% zoom na browserot komentar na ovie dve*/
+    width: 1650px;
+    margin: auto;
+}
+/*header*/
+#naslov p{
+    font-weight: bolder;
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding-left: 60px;
+}
+#naslov{
+    background-image: linear-gradient(to right,#2d2d2d, #800101,#2d2d2d);
+    margin-top: 60px;
+    height: 150px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#hederbar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#hederbar li{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#hederbar li a{
+    text-decoration: none;
+    color: #a8a8a8;
+    font-weight: bold;
+    font-size: larger;
+}
+#hederbar li a:hover{
+    border: 1px rgba(128, 1, 1, 0) solid;
+    background:  linear-gradient(rgb(128, 1, 1),#2d2d2d)no-repeat;
+    border-radius: 6px;
+    padding: 10px 15px;
+}
+
+/*footer*/
+#footer{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right,#2d2d2d, #800101,#2d2d2d);
+    margin-bottom: -20px;
+}
+#footerbar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footerbar li{
+    margin-left: 30px;
+}
+#footerbar li a{
+    text-decoration: none;
+    color: #a8a8a8;
+    font-weight: bold;
+    font-size: larger;
+}
+#footerbar li a:hover{
+    color: #1a1a1a;
+}
+.naStrana{
+    border: 1px rgba(128, 1, 1, 0) solid;
+    background:  linear-gradient(rgb(128, 1, 1),#2d2d2d)no-repeat;
+    border-radius: 6px;
+    padding: 10px 15px;
+}
